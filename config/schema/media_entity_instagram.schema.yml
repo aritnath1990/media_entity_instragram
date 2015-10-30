@@ -1,0 +1,21 @@
+media_entity_instagram.settings:
+  type: mapping
+  label: 'Media entity Instagram settings'
+  mapping:
+    local_images:
+      type: string
+      label: 'Base folder for tuhmbnails'
+
+media_entity.bundle.type.instagram:
+  type: mapping
+  label: 'Instagram type configuration'
+  mapping:
+    source_field:
+      type: string
+      label: 'Field with embed code/URL'
+    use_instagram_api:
+      type: boolean
+      label: 'Whether to use instagram api or not'
+    client_id:
+      type: string
+      label: 'Field with client id'
